@@ -1062,4 +1062,36 @@
   width: 65px;
 }
 
+.status-btn[data-toggle="buttons"] > .btn > input[type="radio"] {
+  display: none;
+}
+
+.status-btn[data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+
+.status-btn .btn-default.btn-on-3.active {
+  color: #5BB75B;
+  font-weight: bolder;
+}
+
+.status-btn .btn-default.btn-off-3.active {
+  color: #DA4F49;
+  font-weight: bolder;
+}
+
+.actual-img {
+  display: none;
+}
+
+.upload-img-btn {
+  cursor: pointer;
+}
+
+.placeholder-img {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+}
+
 /*# sourceMappingURL=adminlte.extra-components.css.map */

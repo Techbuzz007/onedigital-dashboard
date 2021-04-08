@@ -1,8 +1,8 @@
 // var baseURL = 'http://165.227.86.165/api/';
 // var baseURL = 'https://connect.s-onedigital.com/api/';
 //var baseURL = 'https://connect.s-onedigital.com/api/';
-//var baseURL = 'http://127.0.0.1:8000/api/';
-var baseURL = 'https://passmanagmentapi.herokuapp.com/api/';
+var baseURL = 'http://127.0.0.1:8000/api/';
+//var baseURL = 'https://passmanagmentapi.herokuapp.com/api/';
 var localStorage = window.localStorage;
 
 moment.locale('fr');

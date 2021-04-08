@@ -1,0 +1,20 @@
+.status-btn[data-toggle="buttons"] {
+	>.btn {
+		>input[type="radio"] {
+			display: none;
+		}
+		>input[type="checkbox"] {
+			display: none;
+		}
+	}
+}
+.status-btn {
+	.btn-default.btn-on-3.active {
+		color: #5BB75B;
+		font-weight: bolder;
+	}
+	.btn-default.btn-off-3.active {
+		color: #DA4F49;
+		font-weight: bolder;
+	}
+}
